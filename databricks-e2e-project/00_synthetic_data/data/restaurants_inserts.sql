@@ -1,5 +1,14 @@
-INSERT INTO restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone") VALUES ('REST-AUH-001', 'Spice Route Downtown', 'Abu Dhabi', 'UAE', 'Corniche Road Abu Dhabi', '2023-01-15', '+971-2-123-4567');
-INSERT INTO restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone") VALUES ('REST-AUH-002', 'Spice Route Al Wahda', 'Abu Dhabi', 'UAE', 'Al Wahda Mall Abu Dhabi', '2023-06-20', '+971-2-234-5678');
-INSERT INTO restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone") VALUES ('REST-DXB-001', 'Spice Route Marina', 'Dubai', 'UAE', 'Dubai Marina Walk', '2023-03-10', '+971-4-345-6789');
-INSERT INTO restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone") VALUES ('REST-DXB-002', 'Spice Route Mall of Emirates', 'Dubai', 'UAE', 'Mall of the Emirates Dubai', '2023-09-05', '+971-4-456-7890');
-INSERT INTO restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone") VALUES ('REST-SHJ-001', 'Spice Route City Centre', 'Sharjah', 'UAE', 'City Centre Sharjah', '2024-02-14', '+971-6-567-8901');
+INSERT INTO dbo.restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone", "updated_at")
+VALUES ('REST-AUH-001', 'Spice Route Downtown', 'Abu Dhabi', 'UAE', 'Corniche Road Abu Dhabi', '2023-01-15', '+971-2-123-4567', '2026-06-25T00:00:00');
+
+INSERT INTO dbo.restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone", "updated_at")
+VALUES ('REST-AUH-002', 'Spice Route Al Wahda', 'Abu Dhabi', 'UAE', 'Al Wahda Mall Abu Dhabi', '2023-06-20', '+971-2-234-5678', '2026-06-25T00:00:00');
+
+INSERT INTO dbo.restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone", "updated_at")
+VALUES ('REST-DXB-001', 'Spice Route Marina', 'Dubai', 'UAE', 'Dubai Marina Walk', '2023-03-10', '+971-4-345-6789', '2026-06-25T00:00:00');
+
+INSERT INTO dbo.restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone", "updated_at")
+VALUES ('REST-DXB-002', 'Spice Route Mall of Emirates', 'Dubai', 'UAE', 'Mall of the Emirates Dubai', '2023-09-05', '+971-4-456-7890', '2026-06-25T00:00:00');
+
+INSERT INTO dbo.restaurants ("restaurant_id", "name", "city", "country", "address", "opening_date", "phone", "updated_at")
+VALUES ('REST-SHJ-001', 'Spice Route City Centre', 'Sharjah', 'UAE', 'City Centre Sharjah', '2024-02-14', '+971-6-567-8901', '2026-06-25T00:00:00');
